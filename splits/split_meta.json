@@ -1,0 +1,49 @@
+{
+  "model_bucket": "model",
+  "periods": {
+    "model": {
+      "start": "2023-12-01",
+      "end": "2026-02-28",
+      "role": "model"
+    },
+    "IOD_negative": {
+      "start": "2022-09-01",
+      "end": "2022-11-30",
+      "role": "independent"
+    },
+    "IOD_positive": {
+      "start": "2023-09-01",
+      "end": "2023-11-30",
+      "role": "independent"
+    }
+  },
+  "buckets": {
+    "model": {
+      "role": "model",
+      "start": "2023-12-01",
+      "end": "2026-02-28",
+      "n": 105909,
+      "path": "splits/model.csv",
+      "time_min": "2023-12-01",
+      "time_max": "2026-02-28"
+    },
+    "IOD_negative": {
+      "role": "independent",
+      "start": "2022-09-01",
+      "end": "2022-11-30",
+      "n": 11739,
+      "path": "splits/IOD_negative.csv",
+      "time_min": "2022-09-01",
+      "time_max": "2022-11-30"
+    },
+    "IOD_positive": {
+      "role": "independent",
+      "start": "2023-09-01",
+      "end": "2023-11-30",
+      "n": 11739,
+      "path": "splits/IOD_positive.csv",
+      "time_min": "2023-09-01",
+      "time_max": "2023-11-30"
+    }
+  }
+}
